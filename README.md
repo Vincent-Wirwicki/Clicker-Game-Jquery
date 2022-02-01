@@ -1,4 +1,4 @@
-# Game-Js-Coockie-Clicker-Like
+# Clicker-Game-Js-Object-Oriented
 
 A small game about clicking and managing two resources.  
 Basically, you click to collect minerals but, each minerals generate some pollution.  
