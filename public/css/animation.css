@@ -1,0 +1,134 @@
+/*
+.mineralsInfo {
+
+    opacity: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.mineralsInfoAnim {
+
+    opacity: 1;
+    font-size: 18px;
+    transform: translateY(-5px);
+    transition: 0.2s ease-in-out;
+}
+
+.lessPollutionInfo {
+    opacity: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.lessPollutionInfoAnim {
+
+    opacity: 1;
+    transform: translateY(-5px);
+    transition: 0.2s ease-in-out;
+
+}
+*/
+
+.addMineralToScore {
+
+    font-size: 0.5rem;
+    color: #F2CD13;
+    opacity: 0;
+    text-align: center;
+
+}
+
+.addMineralToScoreAnim {
+
+    opacity: 1;
+    font-size: 1.5rem;
+    transition: 0.1s ease-in-out;
+
+}
+
+.addPollutionToScore {
+
+    font-size: 0.5rem;
+    opacity: 0;
+    color: #30F284;
+    text-align: center;
+
+}
+
+.addPollutionToScoreAnim {
+
+    opacity: 1;
+    font-size: 1.5rem;
+    transition: 0.1s ease-in-out;
+
+}
+
+.mineralValueCost {
+
+    font-size: 16px;
+    color: #F2F2F2;
+    opacity: 0;
+    text-align: center;
+
+}
+
+.mineralValueCostAnim {
+
+    opacity: 1;
+    font-size: 24px;
+    transition: 0.1s ease-in-out;
+
+}
+
+.factoryCostScore {
+
+    font-size: 16px;
+    color: #F2F2F2;
+    opacity: 0;
+    text-align: center;
+
+}
+
+.factoryCostScoreAnim {
+
+    opacity: 1;
+    font-size: 24px;
+    transition: 0.1s ease-in-out;
+
+}
+
+.greenTicketsCost {
+
+    font-size: 16px;
+    color: #F2F2F2;
+    opacity: 0;
+    text-align: center;
+
+}
+
+.greenTicketsCostAnim {
+
+    opacity: 1;
+    font-size: 24px;
+    transition: 0.1s ease-in-out;
+
+}
+
+.greenEnergyCost {
+
+    font-size: 16px;
+    color: #F2F2F2;
+    opacity: 0;
+    text-align: center;
+
+}
+
+.greenEnergyCostAnim {
+
+    opacity: 1;
+    font-size: 24px;
+    transition: 0.1s ease-in-out;
+
+}

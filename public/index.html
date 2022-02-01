@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mineral Clicker</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link href="https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+
+<body>
+    <div class="container">
+        <div class="game">
+            <div class="gameOver"></div>
+            <section class="gameSection score">
+                <h2>Score</h2>
+                <div class="wrapScore">
+                    <h1 class="scoreTitle">Minerals: </h1>
+                    <div class="scoreValue">
+                        <p class="incomeDisplay scoreTitle"></p>
+                        <p class="mineralValueCost">-<span class="valueUpgradeCost"></span></p>
+                        <p class="factoryCostScore">-<span class="factoryCost"></span></p>
+                        <p class="addMineralToScore">+<span class="addMineralScore"></span> </p>
+                        <p class="greenTicketsCost">-<span class="pollutionUpgradeCost"></span></p>
+                        <p class="greenEnergyCost">-<span class="greenPowerCost"></span> </p>
+                        <p class="addPollutionToScore">-<span class="reducePollutionIncomeToScore"></span></p>
+                    </div>
+                </div>
+                <div class="wrapScore">
+                    <h1 class="scoreTitle">Pollution:</h1>
+                    <div class="scoreValue">
+                        <p class="pollutionDisplay scoreTitle"></p>
+                        <p class="addMineralToScore">+<span class="addIncomePollutionToScore"></span></p>
+                        <p class="addPollutionToScore">-<span class="reducePollutionToScore"></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="rules">
+                    <h2>Rules :</h2>
+                    <p>Win condition : 1k minerals</p>
+                    <p>Loose condition : 1k pollution</p>
+                </div>
+            </section>
+            <section class="gameSection minerals">
+                <div>
+                    <h2>Minerals action</h2>
+                    <article class="wrapperActionIncome">
+               <button class="addIncome mainAction">Extract Minerals</button>
+                    </article>
+                    <section class="upgrades">
+                        <h2>Minerals upgrade</h2>
+                        <article class="wrapperUpgrades">
+                            <button class="mineralsValueUpgrade btnActiveUpgrade">Minerals Value</button>
+                            <div class="sliderInfo">
+                                <p>Cost you : <span class="valueUpgradeCost"></span> </p>
+                                <p>+ <span class="valueUpgradeEffect"></span> minerals next upgrade</p>
+                                <p>+ <span class="valueUpgradePollution"></span> pollution next upgrade</p>
+                            </div>
+                        </article>
+                        <article class="wrapperUpgrades">
+                            <button class="factoryValueUpgrade btnActiveUpgrade">Factory </button>
+                            <div class="sliderInfo">
+                                <p>Cost you : <span class="factoryCost"></span></p>
+                                <p>+ <span class="factoryIncome"></span> minerals per seconde</p>
+                                <p>+ <span class="factoryPollution"></span> pollution per seconde</p>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+            </section>
+            <section class="gameSection green">
+                <h2>Green action</h2>
+                <div class="wrapperActionPollution">
+                    <button class="lessPollution mainAction">Reduce Pollution</button>
+                </div>
+                <section class="upgrades">
+                    <h2>Green upgrade</h2>
+                    <article class="wrapperUpgrades">
+                        <button class="greenTicketsValueUpgrade btnActiveUpgrade">Green Tickets</button>
+                        <div class="sliderInfo">
+                            <p>Cost you : <span class="pollutionUpgradeCost"></span></p>
+                            <p>- <span class="pollutionUpgradeEffect"></span> pollution per upgrade</p>
+                        </div>
+                    </article>
+                    <article class="wrapperUpgrades">
+                        <button class="greenEnergyValueUpgrade btnActiveUpgrade">Green Energy</button>
+                        <div class="sliderInfo">
+                            <p>Cost you : <span class="greenPowerCost"></span></p>
+                            <p>- <span class="greenPowerIncome"></span> minerals per seconde</p>
+                            <p>- <span class="greenPowerPollution"></span> pollution per seconde</p>
+                        </div>
+                    </article>
+                </section>
+            </section>
+        </div>
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+.gameOver{
+    
+    position:absolute;
+    top: 50px;
+    left: 50px;
+    width: 60vw;
+    height: 60vh;
+    background: red;
+    z-index: 2
+}
+
+.gameOverActive {
+    
+    
+    
+}

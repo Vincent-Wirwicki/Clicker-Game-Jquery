@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #252624;
+
+}
+
+.game {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 1rem;
+    border: solid #F2E1AC 2px;
+    border-radius: 10px;
+    font-family: 'Harmattan', sans-serif;
+    line-height: 1.6;
+    min-height: 60vh;
+    min-width: 50vw;
+
+}
+
+.gameSection {
+
+    min-height: 25rem;
+    color: #F2E1AC;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    min-width: 12rem;
+    min-height: 10rem;
+    padding: 1.5rem;
+    margin:1.5rem;
+
+}
+
+h2 {
+
+    font-size: 1.2rem;
+    padding-top: 1rem; 
+    color: #304F8C;
+    text-align: left;
+
+}
+
+p {
+
+    font-size: 0.9rem;
+    letter-spacing: none;
+    text-align: left;
+}
+
+.score {
+
+    width: 18rem;
+}
+
+
+.rules {
+
+    padding-top: 0.8rem;
+}
+
+.wrapScore {
+
+    min-height: 5rem;
+    min-width: 15rem;
+    text-align: left;
+    border-bottom: 2px solid #F2E1AC;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    text-align: left;
+
+}
+
+.scoreTitle {
+
+    font-size: 2rem;
+    text-align: left;
+
+}
+
+.scoreValue {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+.wrapperActionIncome {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+    
+}
+
+.wrapperActionPollution {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+}
+
+.wrapperUpgrades {
+
+    min-height: 10rem;
+    
+}
+
+.upgrades{
+    
+     border-top: 2px solid #F2E1AC;
+}
+
+.sliderInfo {
+
+    color: #F2F2F2;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+     margin-top: 0.5rem;
+
+}
+
+.mineralsInfo{
+    
+    margin:1rem;
+}
+
