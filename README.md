@@ -13,7 +13,7 @@ The main goal of this project was to use object in javascript.
   - Object Oriented Programming 
   - Automation, because clicking is exhausting
   - Each resource has influence on the other one
-  - Dynamic Ui, for example you don't have enough ressources to buy an upgrade, the button will be grey with text line-through
+  - Dynamic Ui, based on player upgrades
 
 ## What can be added ?
   
