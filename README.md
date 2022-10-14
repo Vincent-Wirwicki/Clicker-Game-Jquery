@@ -15,12 +15,7 @@ The main goal of this project was to use object in javascript.
   - Each resource has influence on the other one
   - Dynamic Ui, based on player upgrades
 
-## What can be added ?
-  
-  - Assets to looks more like a game
-  - Destructuring with es6 synthax because DRY
-  - Game balancing
-  - Maybe more resource/upgrade 
+
   
   
 
